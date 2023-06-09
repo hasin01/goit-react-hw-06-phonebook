@@ -1,7 +1,7 @@
 const { createSlice, nanoid } = require('@reduxjs/toolkit');
 
 const initialState = {
-  contacts: JSON.parse(localStorage.getItem('contacts')) ?? [],
+  contacts:[],
   filter: '',
 };
 
